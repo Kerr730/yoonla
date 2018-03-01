@@ -1,0 +1,121 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/repeater.png);
+	background-repeat: repeat-x;
+	background-color: #000000;
+	color: #333;
+	margin-top: 0px;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	width: 918px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/content-repeater.png);
+	background-repeat: repeat-y;
+}
+#adminAREA {
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#introPage {
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin-bottom: 15px;
+}
+.titleStep {
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.stepheadline div input[type=text] {
+	width: 300px;
+	height: 30px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 15px;
+	border: 1px solid #999;
+	outline:none;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 15px;
+	border: 1px solid #999;
+	outline:none;
+}
+
+textarea:focus {
+	width: 300px;
+	height: 100px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 15px;
+	border: 1px solid #206ca6;
+	outline:none;
+}
+
+.themeColor {
+	width: 310px;
+	margin: 0px;
+	height: 40px;
+	margin-bottom: 15px;
+	outline:none;
+	vertical-align: middle;
+}
+a {
+	color: #0F75C8;
+	text-decoration: none;
+}
+
+
+.themeColor:focus {
+	width: 310px;
+	margin: 0px;
+	height: 40px;
+	margin-bottom: 15px;
+	outline:none;
+	border: 1px solid #206ca6;
+}
+
+
+.stepheadline div input[type=text]:focus {
+	width: 300px;
+	height: 30px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 15px;
+	border: 1px solid #206ca6;
+	outline:none;
+}
+.bullettitle {
+	font-size: 16px;
+	color: #5B984F;
+}
+.bulletArea-Point {
+	padding: 15px;
+	border: 1px dotted #CCC;
+	margin-right: 30px;
+}
+.radioBTN {
+	padding: 0px;
+	margin: 0px;
+	width: 20px;
+}
